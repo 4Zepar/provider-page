@@ -1320,6 +1320,15 @@ $orange-akcent: #FF4E00;
         --index: calc(1.2vw + 1.2vh);
     }
 
+    .greeting {
+        .container {
+            .greeting-img {
+                background-size: 100%;
+                height: calc(var(--index)* 12);
+            }
+        }
+    }
+
     .tarifs {
         .container {
             .tarifs-description {
