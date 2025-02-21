@@ -1165,6 +1165,21 @@ body {
     display: none;
   }
 }
+@media (max-width: 450px) {
+  .tarifs .container .tarifs-description {
+    flex-direction: column;
+    gap: calc(var(--index) * 0.5);
+  }
+  .tarifs .container .tarifs-description-nav {
+    display: none;
+  }
+  .tarifs .container .tarifs-description-help {
+    display: flex;
+  }
+  .tarifs .container .tarifs-cards__elem:nth-child(2) {
+    display: none;
+  }
+}
 @media (max-width: 375px) {
   :root {
     --index: calc(1.3vw + 1.3vh);
