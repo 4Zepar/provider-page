@@ -372,6 +372,12 @@ body {
      -moz-user-select: none;
           user-select: none;
   font-size: calc(var(--index) * 0.65);
+  white-space: nowrap;
+  word-wrap: normal;
+  word-break: normal;
+  overflow-wrap: normal;
+  -webkit-hyphens: none;
+  hyphens: none;
 }
 .tarifs .container .tarifs-description-help .help-icon {
   flex-shrink: 0;
