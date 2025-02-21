@@ -535,6 +535,13 @@ $orange-akcent: #FF4E00;
                     border-color: $orange-akcent;
                     padding: calc(var(--index) * .6) calc(var(--index) * 1.4);
                     border-radius: calc(var(--index) * .3);
+                    white-space: nowrap;
+                    word-wrap: normal;
+                    word-break: normal;
+                    overflow-wrap: normal;
+                    -webkit-hyphens: none;
+                    -moz-hyphens: none;
+                    hyphens: none;
                 }
                 .elem-btn:hover {
                     box-shadow: none;

@@ -479,6 +479,12 @@ body {
   border-color: #FF4E00;
   padding: calc(var(--index) * 0.6) calc(var(--index) * 1.4);
   border-radius: calc(var(--index) * 0.3);
+  white-space: nowrap;
+  word-wrap: normal;
+  word-break: normal;
+  overflow-wrap: normal;
+  -webkit-hyphens: none;
+  hyphens: none;
 }
 .tarifs .container .tarifs-cards__elem .elem-btn:hover {
   box-shadow: none;
